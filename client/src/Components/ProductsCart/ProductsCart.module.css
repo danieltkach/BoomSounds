@@ -1,0 +1,17 @@
+.imgCart {
+  width: 50px;
+}
+
+.btnDel {
+  margin-top: 25px;
+}
+
+.total {
+  color: white;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.cart_preview_cell {
+  font-size: 2em;
+}

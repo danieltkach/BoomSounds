@@ -1,0 +1,74 @@
+.product_detail_page {
+  background-color: rgb(8, 8, 8);
+}
+
+.page-product-detail-container {
+  background-image: linear-gradient(
+    to top right,
+    rgb(101, 115, 255),
+    rgb(98, 105, 235),
+    rgb(94, 95, 216),
+    rgb(91, 84, 196),
+    rgb(88, 74, 176),
+    rgb(84, 64, 157),
+    rgb(81, 54, 137),
+    rgb(77, 44, 118),
+    rgb(74, 34, 98),
+    rgb(71, 23, 78),
+    rgb(67, 13, 59),
+    rgb(64, 3, 39)
+  );
+  color: whitesmoke;
+}
+
+.page-add-review-container {
+  margin: 10px 50px;
+  padding: 20px;
+}
+
+.reviews-section-title {
+  font-size: 1.2em;
+  color: whitesmoke;
+}
+
+.pd-price-text {
+  color: black;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.page-reviews-list {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 7, 50, 1) 100%
+  );
+  width: 70%;
+  margin: 0px 50px;
+  padding: 50px;
+}
+
+.page-reviews-container {
+  /* background-image: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0),
+    rgb(4, 0, 0),
+    rgb(9, 0, 0),
+    rgb(13, 0, 0),
+    rgb(17, 0, 0),
+    rgb(22, 0, 0),
+    rgb(26, 1, 0),
+    rgb(31, 1, 0),
+    rgb(35, 1, 0),
+    rgb(39, 1, 0),
+    rgb(44, 1, 0),
+    rgb(48, 1, 0)
+  ); */
+  background-color: rgb(8, 8, 8);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  color: whitesmoke;
+}

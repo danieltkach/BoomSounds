@@ -1,0 +1,50 @@
+#CREATE
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Testing Product",
+  "description":"I'm a testing product",
+  "price":1500,
+  "artist":"Me",
+  "audioUrl":"test"
+}
+###
+#UPDATE
+PUT http://localhost:3001/products/1
+Content-Type: application/json
+
+{
+  "description":"I'm modified!"
+}
+###
+#DELETE
+DELETE http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "id":1
+}
+###
+#GET ALL
+GET http://localhost:3001/products
+###
+#GET BY ID
+GET http://localhost:3001/products/id/1
+###
+#GET BY KEYWORD
+GET http://localhost:3001/products/searchKey?q=esdf
+Content-Type: application/json
+
+{
+  "keyword":"esdf"
+}
+###
+#ADDING CATEGORY TO A PRODUCT
+POST http://localhost:3001/products/1/category/1
+###
+#GET PRODUCTS INCLUDING CATEGORIES
+GET http://localhost:3001/products/testing/1
+###
+#SEARCH PRODUCT BY CATEGORY NAME
+GET http://localhost:3001/products/categoria/Testing

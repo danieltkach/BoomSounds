@@ -1,0 +1,9 @@
+GET http://localhost:3001/shopcart/user/7
+###
+GET http://localhost:3001/shopcart/productInCart/3
+###
+POST http://localhost:3001/shopcart/2/product/1
+###
+GET http://localhost:3001/shopcart/2?includeProducts=true
+###
+DELETE http://localhost:3001/shopcart/deleteAllProducts/3

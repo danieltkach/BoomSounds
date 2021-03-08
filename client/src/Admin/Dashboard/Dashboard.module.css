@@ -1,0 +1,12 @@
+.data_container {
+  color: white;
+  margin: 50px;
+  padding: 20px;
+  font-size: 2em;
+  
+}
+
+.data_container ul li{
+  list-style: none;
+}
+

@@ -1,0 +1,315 @@
+###########################################################################
+###########################################################################
+##############################ROCK NACIONAL################################
+###########################################################################
+###########################################################################
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"9 de julio",
+  "description":"I'm a testing product",
+  "price":500,
+  "artist":"Callejeros",
+  "imageUrl":"https://www.bing.com/th?id=AMMS_55cbdf04506ff15c09adf294bf8d1c51&w=110&h=110&c=7&rs=1&qlt=80&pcl=f9f9f9&cdv=1&dpr=2.25&pid=16.1",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2F9%20de%20Julio.mp3?alt=media&token=ead8ee63-7e31-4229-9427-56f7bd34d204"
+}
+
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Un Pacto",
+  "description":"",
+  "price":150,
+  "artist":"Bersuit Vergarabat",
+  "imageUrl":"https://th.bing.com/th/id/OIP.5ksD0Yb5sQ6YfLUIVDjfaQHaHa?w=161&h=180&c=7&o=5&dpr=2.25&pid=1.7",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20Bersuit%20Vergarabat%20%20Un%20Pacto.mp3?alt=media&token=44352ae3-8338-4e17-b230-e9c3999157e8"
+}
+
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Vas a bailar",
+  "description":"",
+  "price":250,
+  "artist":"Ciro y los persas",
+  "imageUrl":"https://th.bing.com/th/id/OIP.SMVUth1TmPPXzoidM21MLgHaHa?w=172&h=180&c=7&o=5&dpr=2.25&pid=1.7",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20Ciro%20y%20Los%20Persas%20%20VAS%20A%20BAILAR%20Video%20Oficial.mp3?alt=media&token=a79dd291-1f99-485b-8bc0-5a4501f0ed3f"
+}
+
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"El fantasma",
+  "description":"",
+  "price":150,
+  "artist":"Arbol",
+  "imageUrl":"https://th.bing.com/th/id/OIP.a2SsIYVtNTeAE5eXmpoIoQHaHa?w=198&h=198&c=7&o=5&dpr=2.25&pid=1.7",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20El%20Fantasma.mp3?alt=media&token=44c167f6-bfba-4c0b-a18f-2747cba77248"
+}
+
+
+
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Soy mi soberano",
+  "description":"",
+  "price":300,
+  "artist":"Gustavo Cordera",
+  "imageUrl":"https://th.bing.com/th/id/OIP.6XRBFQoG45sg1ms8nYNF-QHaFj?w=210&h=180&c=7&o=5&dpr=2.25&pid=1.7",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20Gustavo%20Cordera%20%20Soy%20Mi%20Soberano.mp3?alt=media&token=0ad77a42-2480-4147-978d-316f886576e5"
+}
+
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Zafar",
+  "description":"",
+  "price":250,
+  "artist":"La vela puerca",
+  "imageUrl":"https://th.bing.com/th/id/OIP.2rP53LhnBL0ChkaJti0ZCAHaHa?w=169&h=180&c=7&o=5&dpr=2.25&pid=1.7",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20La%20Vela%20Puerca%20%20%20Zafar.mp3?alt=media&token=70a0eb9a-6970-49e7-a5ea-8b89c4faf9f5"
+}
+
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Va a escampar",
+  "description":"",
+  "price":300,
+  "artist":"La vela puerca",
+  "imageUrl":"https://th.bing.com/th/id/OIP.2rP53LhnBL0ChkaJti0ZCAHaHa?w=169&h=180&c=7&o=5&dpr=2.25&pid=1.7",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20La%20Vela%20Puerca%20%20Va%20A%20Escampar%20%20A%20Contraluz.mp3?alt=media&token=d1061573-0cdf-44f0-a402-5dbe7f16b0d5"
+}
+
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Bicho de ciudad",
+  "description":"",
+  "price":350,
+  "artist":"",
+  "imageUrl":"https://th.bing.com/th/id/OIP.UVmqJMCXWACczkkI9O6QHwHaEK?w=319&h=180&c=7&o=5&dpr=2.25&pid=1.7",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20Los%20Piojos%20%20Bicho%20de%20ciudad%20Con%20letra.mp3?alt=media&token=356720ed-eaa4-428e-b320-b5ce6931fc54"
+}
+
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Prohibido",
+  "description":"Show en vivo Obras",
+  "price":500,
+  "artist":"Callejeros",
+  "imageUrl":"https://www.bing.com/th?id=AMMS_55cbdf04506ff15c09adf294bf8d1c51&w=110&h=110&c=7&rs=1&qlt=80&pcl=f9f9f9&cdv=1&dpr=2.25&pid=16.1",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2FCallejeros%20%20Prohibido%20En%20Vivo%20Obras.mp3?alt=media&token=003b6803-5939-4f46-80df-5e3176d68c60"
+}
+###########################################################################
+###########################################################################
+##############################CUMBIA CHETA#################################
+###########################################################################
+###########################################################################
+
+
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"2 pa 2",
+  "description":"2019",
+  "price":500,
+  "artist":"Rombai",
+  "imageUrl":"https://th.bing.com/th/id/OIP.NTag-BjVi7jWTz-Bo5P6swHaHa?w=169&h=180&c=7&o=5&dpr=2.25&pid=1.7",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2FRombai%20-%202%20Pa%202%20(Official%20Video).mp3?alt=media&token=583d446f-55ff-493c-bb4a-fb2e28fa9440"
+}
+
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Pura Quimica",
+  "description":"",
+  "price":250,
+  "artist":"Y si bailas",
+  "imageUrl":"",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2FY%20si%20bailas.mp3?alt=media&token=24200256-598a-41e2-9bb8-263133e688bf"
+}
+
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Nena",
+  "description":"",
+  "price":150,
+  "artist":"Marama",
+  "imageUrl":"",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20Marama%20%20Nena.mp3?alt=media&token=c93691f3-bca1-47cd-b508-a978bca983db"
+}
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Pasarla bien",
+  "description":"",
+  "price":200,
+  "artist":"Marama",
+  "imageUrl":"",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20Marama%20%20Pasarla%20Bien.mp3?alt=media&token=3d95641e-4209-4bf2-b9ad-565b15a024fc"
+}
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Cuando se pone a bailar",
+  "description":"",
+  "price":200,
+  "artist":"Rombai",
+  "imageUrl":"",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20Rombai%20%20Cuando%20Se%20Pone%20A%20Bailar.mp3?alt=media&token=4e36f3d8-c34d-4ba2-9a29-8ef43e9b38d5"
+}
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Yo te propongo",
+  "description":"",
+  "price":150,
+  "artist":"Rombai",
+  "imageUrl":"",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20Rombai%20%20Yo%20te%20propongo.mp3?alt=media&token=eb5f54d2-bc31-43e3-a3b8-96f4de2ed183"
+}
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Noche loca",
+  "description":"",
+  "price":200,
+  "artist":"Marama",
+  "imageUrl":"",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20Rombai%20Ft%20Marama%20%20Noche%20Loca%20Video%20Oficial.mp3?alt=media&token=471b045a-b7c6-4036-9f34-84bb2a10796d"
+}
+
+###########################################################################
+###########################################################################
+##############################REGGAETON VIEJO##############################
+###########################################################################
+###########################################################################
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Llamado de Emergencia",
+  "description":"Daddy Yankee - Las epocas doradas!",
+  "price":500,
+  "artist":"Daddy Yankee",
+  "imageUrl":"https://th.bing.com/th/id/OIP.tKC_6hIxmpibXkBgN-9PBQHaEK?w=285&h=180&c=7&o=5&dpr=2.25&pid=1.7",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20Daddy%20Yankee%20%20Llamado%20De%20Emergencia.mp3?alt=media&token=b15d7378-855b-4b7f-8b55-ffee47b85120"
+}
+
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Ven bailalo",
+  "description":"",
+  "price":200,
+  "artist":"Angel y Khris",
+  "imageUrl":"https://th.bing.com/th/id/OIP.toVqF62b3s_huqwko7Ne1QAAAA?w=212&h=215&c=7&o=5&dpr=2.25&pid=1.7",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20Angel%20y%20Khris%20Ven%20Bailalo%20Reggaeton%20Version.mp3?alt=media&token=31f61b80-caa6-42c1-83cf-4386b8d9959d"
+}
+
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Baila morena",
+  "description":"https://www.bing.com/images/search?view=detailV2&ccid=cdZGweXy&id=F7BBABFA49631C91A65CB1D22AC71B0A7E3E8577&thid=OIP.cdZGweXyTbSXp0z__YQS0gHaEK&mediaurl=https%3a%2f%2fi.ytimg.com%2fvi%2fpcpn1xj9sGQ%2fmaxresdefault.jpg&exph=720&expw=1280&q=hector+y+tito&simid=608003061558412986&ck=0AF9D41C4AAF85405886DA8341E96FBE&selectedIndex=5&FORM=IRPRST",
+  "price":200,
+  "artist":"Hector y Tito",
+  "imageUrl":"",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20Baila%20Morena%20%20Hector%20y%20Tito%20ft%20Don%20Omar%20%20Glory.mp3?alt=media&token=435ed53f-0b0d-4805-abcb-1e48e3c41c27"
+}
+
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Atrevete te",
+  "description":"",
+  "price":250,
+  "artist":"Calle 13",
+  "imageUrl":"https://th.bing.com/th/id/OIP.79NwCO5C4UM7fkvLBisb2AHaEK?w=301&h=180&c=7&o=5&dpr=2.25&pid=1.7",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20Calle%2013%20%20Atrevete%20te%20te%20Explicit.mp3?alt=media&token=cd528d87-b333-4476-87ae-29e7d266b9e3"
+}
+
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Na de na",
+  "description":"",
+  "price":300,
+  "artist":"Angel y Khris",
+  "imageUrl":"https://th.bing.com/th/id/OIP.toVqF62b3s_huqwko7Ne1QAAAA?w=212&h=215&c=7&o=5&dpr=2.25&pid=1.7",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20Na%20De%20Na.mp3?alt=media&token=1b5ebc37-83a1-4c35-b47e-c9eb6281e9d4"
+}
+
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Que tengo que hacer",
+  "description":"",
+  "price":300,
+  "artist":"Daddy Yankee",
+  "imageUrl":"https://th.bing.com/th/id/OIP.AMJqx84LSCbCEmJTxxgORwAAAA?w=185&h=180&c=7&o=5&dpr=2.25&pid=1.7",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20Que%20Tengo%20Que%20Hacer%20%20Daddy%20Yankee%20Official%20Video.mp3?alt=media&token=a6902486-0611-4022-9a14-16b2a979a95f"
+}
+
+###########################################################################
+###########################################################################
+#####################################POP###################################
+###########################################################################
+###########################################################################
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Bad guy",
+  "description":"Billie Elish - Bad Guy - 2019",
+  "price":150,
+  "artist":"Billie Elish",
+  "imageUrl":"https://th.bing.com/th/id/OIP.U5GrmoRykIjAlN5jgqWuhwHaHa?w=167&h=180&c=7&o=5&dpr=2.25&pid=1.7",
+  "audioUrl":"https://firebasestorage.googleapis.com/v0/b/e-commerce-henry-34fb9.appspot.com/o/test%2Fy2mate.com%20-%20Billie%20Eilish%20%20bad%20guy.mp3?alt=media&token=c717bd9a-94dc-4388-aa13-352965d5e714"
+}

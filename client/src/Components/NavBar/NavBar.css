@@ -1,0 +1,51 @@
+.navbar {
+  height: 10vh;
+  padding: 10px;
+  background: linear-gradient(-127deg, rgb(255, 150, 3), rgb(255, 179, 72));
+  color: white;
+  box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.5);
+}
+
+.menu-item {
+  text-transform: uppercase;
+}
+
+.boomsounds-home-logo {
+  max-width: 150px;
+  max-height: 40px;
+}
+
+.active-link,
+a.nav-link:hover {
+  text-shadow: 0 0 10px white, 0 0 10px white;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+  color: black;
+}
+
+.icon {
+  color: #eee;
+}
+
+.btnContainer,
+.btn_cart {
+  width: 40px;
+  height: 40px;
+  margin: 15px;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+.btn_music_library {
+  width: 170px;
+  height: 40px;
+  border: 1px solid white;
+  text-align: center;
+  padding: 5px;
+  margin: 15px;
+}
+
+.btn_user {
+  width: 200x;
+  border: 1px solid yellow;
+}

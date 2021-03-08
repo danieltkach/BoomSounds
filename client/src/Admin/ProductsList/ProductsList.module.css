@@ -1,0 +1,137 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+}
+
+.toolbar_options {
+  margin-left: auto;
+}
+
+.searchbar {
+  margin: 10px;
+}
+.searchbar button {
+  background-color: #ff0000;
+}
+
+.button_new {
+  color: #ff2800;
+  background-color: whitesmoke;
+  border-color: #ff2800;
+}
+
+.thumbnail {
+  width: 50px;
+  height: auto;
+}
+
+.products_table table {
+  width: 100%;
+  color: white;
+}
+.products_table th {
+  text-transform: uppercase;
+}
+.products_table table,
+.products_table th,
+.products_table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.products_table th,
+.products_table td {
+  padding: 5px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+
+.preview_col {
+  font-size: 1.5em;
+}
+
+.products_table {
+  overflow-y: scroll;
+  height: 500px;
+  padding: 5px;
+}
+
+.products_table table tr:nth-child(odd) {
+  background-color: #000442;
+}
+
+.products_table table tr:nth-child(even) {
+  background-color: #0c1155;
+}
+
+.products_table tr:hover {
+  background-color: white;
+}
+
+.plc_input {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #bebebe;
+  padding: 7px;
+  margin: 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+
+  border: 1px solid whitesmoke;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  color: whitesmoke;
+  background-color: #000e3b;
+
+  width: 200px;
+  margin: 10px;
+}
+
+.plc_input:focus {
+  -moz-box-shadow: 0 0 8px #00d7ff;
+  -webkit-box-shadow: 0 0 8px #00d7ff;
+  box-shadow: 0 0 8px #00d7ff;
+  border: 2px solid #00d7ff;
+}
+
+.products_table {
+  margin-left: 50px;
+}
+
+.btn-close-modal {
+}
+
+.modal {
+  background-image: linear-gradient(
+    to top right,
+    rgb(101, 115, 255),
+    rgb(98, 105, 235),
+    rgb(94, 95, 216),
+    rgb(91, 84, 196),
+    rgb(88, 74, 176),
+    rgb(84, 64, 157),
+    rgb(81, 54, 137),
+    rgb(77, 44, 118),
+    rgb(74, 34, 98),
+    rgb(71, 23, 78),
+    rgb(67, 13, 59),
+    rgb(64, 3, 39)
+  );
+  width: 100vw;
+  height: 100vh;
+  color: whitesmoke;
+}

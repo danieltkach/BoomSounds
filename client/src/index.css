@@ -1,0 +1,13 @@
+@import-normalize;
+
+:root {
+  --orange-color: #ff9703;
+  --blue-color: #036bff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Taviraj', serif;
+}

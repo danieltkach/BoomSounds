@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.profile_container {
+  background: black;
+  color: white;
+  width: 100%;
+  height: 70%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(
+    to top right,
+    rgb(101, 115, 255),
+    rgb(98, 105, 235),
+    rgb(94, 95, 216),
+    rgb(91, 84, 196),
+    rgb(88, 74, 176),
+    rgb(84, 64, 157),
+    rgb(81, 54, 137),
+    rgb(77, 44, 118),
+    rgb(74, 34, 98),
+    rgb(71, 23, 78),
+    rgb(67, 13, 59),
+    rgb(64, 3, 39)
+  );
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  justify-content: space-around;
+}
+
+.image_and_info {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 169, 99),
+    rgb(255, 165, 93),
+    rgb(255, 160, 87),
+    rgb(255, 156, 81),
+    rgb(255, 152, 75),
+    rgb(255, 148, 69),
+    rgb(255, 143, 63),
+    rgb(255, 139, 57),
+    rgb(255, 135, 51),
+    rgb(255, 131, 45),
+    rgb(255, 126, 39),
+    rgb(255, 122, 33)
+  );
+  height: 90%;
+  margin: 20px;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image_container {
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 250px;
+  max-height: 250px;
+  margin: 10px;
+  border: 1px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  justify-content: center;
+  box-shadow: 0 0 4px white;
+}
+.image_container > img {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+}
+.image_container > p {
+  align-items: flex-end;
+  margin-top: 20px;
+  color: black;
+}
+.info_container {
+  border: 1px solid white;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  max-width: 60%;
+  min-width: 200px;
+  box-shadow: 0 0 4px white;
+  width: 400px;
+  height: 200px;
+}
+
+.info_container input {
+  display: flex;
+  min-width: 90%;
+  min-height: 35px;
+  max-height: 35px;
+  justify-content: center;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.info_container input:focus {
+  box-shadow: 0 0 8px #ff2800;
+  border: 2px solid #ff2800;
+}
+
+.buttons_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 10%;
+  align-self: flex-end;
+}
+.buttons_container > button {
+  width: 120px;
+  height: 40px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  border: none;
+  background: #ff2800;
+  box-shadow: 0 0 4px white;
+}
+
+.buttons_container > button:hover {
+  background: black;
+  color: white;
+}

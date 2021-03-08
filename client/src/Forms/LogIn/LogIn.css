@@ -1,0 +1,50 @@
+.loginBody {
+  display: flex;
+}
+.login-form {
+  background-color: #e0ffffa4;
+  padding: 10px;
+  width: min-content;
+  margin-block: 25px;
+  margin-inline: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.form {
+  display: flex;
+}
+p {
+  margin-bottom: 2px;
+}
+.fieldContainer {
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  width: min-content;
+  height: min-content;
+  margin: 5px;
+  background-color: dimgray;
+}
+.icon {
+  margin: 5px;
+}
+button {
+  background-color: dodgerblue;
+  border-radius: 5px;
+  padding: 5px;
+  padding-inline: 20px;
+  color: floralwhite;
+  border: none;
+  margin: 10px;
+}
+.buttonContainer {
+  display: flex;
+}
+.formContainer {
+  display: flex;
+  justify-content: center;
+}
+.loginInput {
+  width: 200px;
+  color: black;
+}

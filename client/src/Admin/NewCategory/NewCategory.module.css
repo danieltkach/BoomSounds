@@ -1,0 +1,50 @@
+.newcat_form_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
+
+.left_panel {
+}
+.right_panel {
+}
+
+.right_panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right_panel > button {
+  margin: 15px;
+}
+
+.nc_input {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #bebebe;
+  padding: 7px;
+  margin: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+
+  border: 1px solid whitesmoke;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  color: whitesmoke;
+  background-color: #000e3b;
+
+  width: 90%;
+}
+
+.nc_input:focus {
+  -moz-box-shadow: 0 0 8px #00d7ff;
+  -webkit-box-shadow: 0 0 8px #00d7ff;
+  box-shadow: 0 0 8px #00d7ff;
+  border: 2px solid #00d7ff;
+}

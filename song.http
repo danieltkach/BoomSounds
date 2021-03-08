@@ -1,0 +1,478 @@
+POST http://localhost:3001/categories
+Content-Type: application/json
+ 
+{
+  "name": "Pop"
+}
+###
+POST http://localhost:3001/categories
+Content-Type: application/json
+ 
+{
+  "name": "Rock"
+}
+###
+POST http://localhost:3001/categories
+Content-Type: application/json
+ 
+{
+  "name": "Clásico"
+}
+###
+POST http://localhost:3001/categories
+Content-Type: application/json
+ 
+{
+  "name": "Contemporáneo"
+}
+ 
+###
+POST http://localhost:3001/categories
+Content-Type: application/json
+ 
+{
+  "name": "Folklore"
+}
+ 
+###
+POST http://localhost:3001/categories
+Content-Type: application/json
+ 
+{
+  "name": "Tango"
+}
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "What I call",
+  "price": "55",
+  "imgUrl":"https://cdn.smehost.net/nowmusiccom-ukprod/wp-content/uploads/2016/08/NOW_58.jpg",
+  "artist": "Art 58",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9000"
+}
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Keep Going",
+  "price": "76",
+  "imgUrl":"https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
+  "artist": "Swørn",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9222"
+}
+ 
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+      "name": "Stargroves",
+      "price": "60",
+      "imgUrl": "https://dopemusicpromotions.com/wp-content/uploads/2019/06/Stargroves-album-cover.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+      "artist": "Unknown",
+      "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9148"
+}
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+      "name": "Pain",
+      "price": "60",
+      "imgUrl": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/artistic-album-cover-design-template-d12ef0296af80b58363dc0deef077ecc_screen.jpg?ts=1561488440",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+      "artist": "Unknown",
+      "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9279"
+}
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+      "name": "Blessed",
+      "price": "60",
+      "imgUrl": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/122479313/original/fb299ab659967e07941d3f226232c2b8bb603cd4/design-contemporary-and-inspirational-gospel-music-cd-cover.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+      "artist": "Unknown",
+      "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9285"
+}
+ 
+###
+
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+      "name": "Alter Bridge",
+      "price": "60",
+      "imgUrl": "https://napalmrecords.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/5/9/59429-album-cover-frame-napalm-records.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+      "artist": "Unknown",
+      "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9295"
+}
+ 
+ 
+###
+POST http://localhost:3001/products 
+Content-Type: application/json
+
+{
+  "name": "Daylight",
+  "price": "100",
+  "imgUrl": "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Aiguille",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9272"
+}
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Beaver Creek",
+  "price": "127",
+  "imgUrl": "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Aso, Middle School, Aviino",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=10075"
+}
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Dreams",
+  "price": "100",
+  "imgUrl": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/yellow-masked-album-cover-design-template-b30329fef5a81ae46e0b52f947dc0a4d_screen.jpg?ts=1561486005",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Aiguille",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9299"
+}
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Get Lucky",
+  "price": "100",
+  "imgUrl": "https://lh3.googleusercontent.com/proxy/Mm_MEaPwLyGIqsmFlJaGsvl5HdAA25txhugDBuPC-co6cz2Q0qydr06a_HWAZeh55I1HI0EofGmHI3VjLil--StcSehEXUfIQWFIQC3-yg4wv3nK2ueGaMpFP_z5Q_jo-X3IOwfJfRShGRsp3ySTZWUoToA0H7jEvsPqdCoIm1qZZ0Sp44f9YIEkyVw",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Daft Punk",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9519"
+}
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Because of you",
+  "price": "100",
+  "imgUrl": "https://freight.cargo.site/t/original/i/49b5c8b83182e23ad86add9f8c515128ab45b6306b1d03a17ba18a0de0f15035/Album.jpg",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Aiguille",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9105"
+}
+ 
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Bonfire",
+  "price": "100",
+  "imgUrl": "https://cdn.domestika.org/c_fill,dpr_auto,f_auto,q_auto,w_820/v1545663931/content-items/002/680/361/BONFIRE_TAPA-original.jpg?1545663931",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Ferlop",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9101"
+}
+  
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Devils Guns",
+  "price": "100",
+  "imgUrl": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e2f9aa74-7587-4a30-b0c0-4df61d7ac308/43.jpg",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Aiguille",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9370"
+}
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Juaua",
+  "price": "450",
+  "imgUrl": "https://www.designformusic.com/wp-content/uploads/2019/04/modern-electronica-library-music-album-cover-design.jpg",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Merli",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9255"
+}
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Dormua",
+  "price": "560",
+  "imgUrl": "https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/attachment_68585523.jpg?auto=format&q=60&fit=max&w=930",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Ferlop",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9260"
+}
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Oh gaga",
+  "price": "170",
+  "imgUrl": "https://cdn6.f-cdn.com/contestentries/1485199/27006121/5ca3e39ced7f1_thumb900.jpg",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Merli",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9229"
+}
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Destroyer",
+  "price": "300",
+"imgUrl":"https://ak1.ostkcdn.com//images/products/17522219/KISS-Destroyer-Framed-Album-Cover-Wall-Art-a666102a-eca5-48cd-8d3f-4c05288b87c1.jpg",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Kiss",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9311"
+}
+ 
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Jesus is King",
+  "price": "300",
+"imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6W2U-Fndk5bKqDRKBLrN1c9ockV33ciEAeg&usqp=CAU",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Kanye West",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9111"
+}
+ 
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Minessott",
+  "price": "90",
+  "imgUrl": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/5/13/1399990966665/Picture_246.png?width=700&quality=85&auto=format&fit=max&s=d03fe355248a4a34c6c070ac2fda9caf",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Uyo",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9298"
+}
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Hello",
+  "price": "540",
+  "imgUrl": "https://img.discogs.com/SDEmxNXC_ajzqYgY-LKmQFeD8No=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-14435319-1574474411-8177.jpeg.jpg",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Tony Succar",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9255"
+}
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Me too",
+  "price": "600",
+  "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-v0uTK-X7SfpK9WWj1KebC1y_zg-1OAdbZA&usqp=CAU",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Mc K",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9233"
+}
+
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Plastic Heart",
+  "price": "600",
+  "imgUrl": "https://www.lasmejoreslistasde.com/wp-content/uploads/2020/11/miley-cyrus-plastic-hearts-album-cover-1606506837.jpg",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Miley",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9125"
+}
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "GoodBye",
+  "price": "600",
+  "imgUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/Goodbye_%26_Good_Riddance_Album_Cover.jpg",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Miley",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9225"
+}
+ 
+###
+POST http://localhost:3001/products
+Content-Type: application/json
+ 
+{
+  "name": "Mas de Mi",
+  "price": "600",
+  "imgUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/Goodbye_%26_Good_Riddance_Album_Cover.jpg",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet debitis sunt, magnam fugit corporis, ducimus unde quos tenetur quibusdam quae repellendus iste ullam eligendi autem, id cupiditate quasi. Facilis.",
+  "artist": "Miley",
+  "audioUrl": "https://mp3.chillhop.com/serve.php/?mp3=9185"
+}
+ 
+ 
+###
+POST http://localhost:3001/products/1/category/1
+###
+POST http://localhost:3001/products/2/category/2
+###
+POST http://localhost:3001/products/3/category/3
+###
+POST http://localhost:3001/products/4/category/4
+###
+POST http://localhost:3001/products/5/category/5
+###
+POST http://localhost:3001/products/6/category/5
+###
+POST http://localhost:3001/products/7/category/5
+###
+POST http://localhost:3001/products/8/category/4
+###
+POST http://localhost:3001/products/9/category/5
+###
+POST http://localhost:3001/products/10/category/5
+###
+POST http://localhost:3001/products/11/category/2
+###
+POST http://localhost:3001/products/12/category/2
+###
+POST http://localhost:3001/products/13/category/2
+###
+POST http://localhost:3001/products/14/category/2
+###
+POST http://localhost:3001/products/15/category/2
+###
+POST http://localhost:3001/products/16/category/2
+###
+POST http://localhost:3001/products/17/category/3
+###
+POST http://localhost:3001/products/18/category/4
+###
+POST http://localhost:3001/products/19/category/3
+###
+POST http://localhost:3001/products/20/category/5
+###
+POST http://localhost:3001/products/21/category/5
+###
+POST http://localhost:3001/products/22/category/5
+###
+POST http://localhost:3001/products/23/category/4
+###
+POST http://localhost:3001/products/24/category/3
+###
+POST http://localhost:3001/products/25/category/1
+###
+POST http://localhost:3001/products/26/category/5
+###
+POST http://localhost:3001/products/27/category/2
+###
+POST http://localhost:3001/products/28/category/4
+
+###
+POST http://localhost:3001/products/1/track
+Content-Type: application/json
+{
+	"name": "Pista demo",
+	"audioUrl": "http://test.com/pista-demo.mp3"
+}
+###
+POST http://localhost:3001/products/2/track
+###
+POST http://localhost:3001/products/3/track
+###
+POST http://localhost:3001/products/4/track
+###
+POST http://localhost:3001/products/5/track
+###
+POST http://localhost:3001/products/6/track
+###
+POST http://localhost:3001/products/7/track
+###
+POST http://localhost:3001/products/8/track
+###
+POST http://localhost:3001/products/9/track
+###
+POST http://localhost:3001/products/10/track
+###
+POST http://localhost:3001/products/11/track
+###
+POST http://localhost:3001/products/12/track
+###
+POST http://localhost:3001/products/13/track
+###
+POST http://localhost:3001/products/14/track
+###
+POST http://localhost:3001/products/15/track
+###
+POST http://localhost:3001/products/16/track
+###
+POST http://localhost:3001/products/17/track
+###
+POST http://localhost:3001/products/18/track
+###
+POST http://localhost:3001/products/19/track
+###
+POST http://localhost:3001/products/20/track
+###
+POST http://localhost:3001/products/21/track
+###
+POST http://localhost:3001/products/22/track
+###
+POST http://localhost:3001/products/23/track
+###
+POST http://localhost:3001/products/24/track
+###
+POST http://localhost:3001/products/25/track

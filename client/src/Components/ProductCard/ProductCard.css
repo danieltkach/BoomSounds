@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj&display=swap');
+* {
+  font-family: 'Taviraj', serif;
+}
+
+.product-card-container {
+  box-shadow: 0 2px 5px 2px black;
+  background: linear-gradient(45deg, rgb(45, 0, 160) 0%, rgb(0, 0, 0) 30%);
+  opacity: 0.9;
+  text-align: center;
+  border-radius: 5px;
+  border: whitesmoke;
+  margin: 25px;
+  height: 402px;
+  width: 250px;
+  padding: 10px 5px;
+  transition: transform 1s;
+}
+.isPlaying-lights {
+  background: linear-gradient(
+    0deg,
+    var(--orange-color),
+    rgb(0, 0, 0) 60%
+  ) !important;
+  transform: scale(1.1);
+}
+
+.product-card-container:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, var(--orange-color) 0%, rgb(0, 0, 0) 30%);
+}
+
+.product-card-container .product-image img {
+  width: 80%;
+  border-radius: 50%;
+}
+.rotationOff {
+  animation-play-state: paused;
+  animation: 0s linear infinite;
+}
+.rotationOn {
+  animation-play-state: running;
+  animation: rotation 10s linear infinite;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.product-card-container .product-info-container {
+  display: block;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.product-card-container .product-name {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+a {
+  text-decoration: none;
+}
+.product-card-container .product-artist {
+  font-size: 1.3rem;
+  font-style: normal;
+}
+
+.product-card-container .product-price {
+  color: white;
+}
+
+.add-to-cart-container {
+  margin: 15px;
+  align-self: flex-end;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.add-to-cart-button {
+  background-color: var(--orange-color);
+  margin-left: 15px;
+}
+.in_cart {
+  background-color: var(--light-blue-color);
+}

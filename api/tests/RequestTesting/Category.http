@@ -1,0 +1,19 @@
+#CREATE CATEGORY
+POST http://localhost:3001/categories
+Content-Type: application/json
+
+{
+  "name":"Testing",
+  "description":"I'm a testing category"
+}
+###
+#MODIFY CATEGORY
+PUT http://localhost:3001/categories/1
+Content-Type: application/json
+
+{
+  "description":"I'm moified!"
+}
+###
+#DELETE CATEGORY
+DELETE http://localhost:3001/categories/1

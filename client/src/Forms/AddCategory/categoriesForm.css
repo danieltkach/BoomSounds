@@ -1,0 +1,12 @@
+.form-container {
+  width: 350px;
+  margin: 25px;
+  border: 2px solid #0794c3;
+}
+
+.add-button {
+  width: 250px;
+  height: 25px;
+  background-color: #0794c3;
+  color: #0794c3;
+}

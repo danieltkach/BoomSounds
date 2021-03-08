@@ -1,0 +1,87 @@
+:root {
+  --orange-color: #ff9703;
+  --dark-orange-color: #ff2800;
+  --blue-color: #036bff;
+  --light-blue-color: #00d7ff;
+}
+
+.background_image {
+  position: absolute;
+  width: 100vw;
+  z-index: 0;
+}
+
+.logo_banner {
+  position: relative;
+  display: block;
+  top: 20px;
+  width: 85%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.main_section {
+  margin-bottom: 50px;
+}
+
+.members_footer {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  position: fixed;
+  height: 50px;
+  max-height: 100px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+.members_footer img {
+  border-radius: 100%;
+  max-width: 50px;
+  margin: 5px;
+}
+
+.members_footer img:hover {
+  transition: all 500ms ease;
+  border: 4px dotted #ff7a59;
+  color: #ff7a59;
+  background: #fff;
+}
+
+.user_options {
+  position: relative;
+  /* border: 2px solid white; */
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  z-index: 10;
+  align-items: center;
+}
+.btn_wanting_music,
+.btn_musician {
+  width: 250px;
+  height: 80px;
+  font-size: 2rem;
+}
+.btn_wanting_music {
+  background-color: var(--orange-color);
+  color: whitesmoke;
+}
+.btn_musician {
+  background-color: var(--dark-orange-color);
+  color: whitesmoke;
+}
+
+.btn_wanting_music:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: var(--orange-color);
+  box-shadow: 1px 1px 5px 5px var(--orange-color);
+}
+.btn_musician:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: var(--dark-orange-color);
+  box-shadow: 1px 1px 5px 5px var(--dark-orange-color);
+}

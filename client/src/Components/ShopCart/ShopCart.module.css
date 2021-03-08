@@ -1,0 +1,93 @@
+.cart_container {
+  width: 80%;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart_table {
+  text-align: left;
+  width: 100%;
+}
+
+.cart_table th {
+  text-transform: uppercase;
+}
+
+.cart_table th,
+.cart_table td {
+  padding: 15px;
+  color: whitesmoke;
+}
+
+.cart_table thead {
+  background-color: #809dff;
+}
+
+.cart_table th {
+  position: sticky;
+  top: 0;
+  background-color: #809dff;
+  border-bottom: 4px solid black;
+}
+
+.cart_table tr:hover {
+  background-color: #f9917c42;
+}
+
+.delete {
+  background-color: gray;
+  color: blac k;
+}
+
+.aviso {
+  text-align: center;
+}
+
+.p_none {
+  display: none;
+}
+
+.orders_input {
+  color: black;
+  margin: 20px;
+}
+.orders_input > option {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.total_bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  width: 50%;
+  height: 100px;
+  background-color: rgb(22, 22, 22);
+  color: white;
+  margin-left: auto;
+  box-shadow: 1px 1px 1px 2px #809dff;
+}
+
+.total_tag {
+  font-weight: 900;
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
+.confirm_purchase {
+  text-transform: uppercase;
+}
+
+.table_container {
+  overflow-y: scroll;
+  height: 450px;
+  width: 90%;
+}

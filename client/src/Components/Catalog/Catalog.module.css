@@ -1,0 +1,85 @@
+.main_div {
+  background-size: cover;
+}
+
+.background_image {
+  z-index: -99999;
+}
+
+.catalog_container {
+  background-image: url('/jpg/sound-wave-explosion.jpg');
+  background-size: contain;
+  /* background-repeat: repeat; */
+  background-attachment: fixed;
+  background-size: 100%;
+  justify-content: center;
+}
+
+.catalog_container h1 {
+  color: whitesmoke;
+}
+
+.songs_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 100px;
+}
+
+.product_cards_container {
+  padding: 10px;
+  justify-content: space-around;
+}
+.search_container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 35px;
+  justify-content: center;
+}
+.searchbox_input {
+  max-width: 400px;
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  align-items: center;
+  color: rgb(187, 109, 0);
+  outline: none;
+  border: none;
+}
+
+.categoryFilter,
+.categoryFilter option {
+  width: 150px;
+  max-width: 150px;
+  height: 40px;
+  margin-left: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  align-items: center;
+  color: rgb(187, 109, 0);
+}
+
+.searchbox_input:focus,
+.categoryFilter:focus {
+  -moz-box-shadow: 0 0 8px var(--orange-color);
+  -webkit-box-shadow: 0 0 8px var(--orange-color);
+  box-shadow: 0 0 8px var(--orange-color);
+  border: 2px solid var(--orange-color);
+}
+
+.searchbox_input::placeholder,
+.categoryFilter::placeholder {
+  color: var(--blue-color);
+}
+categoryFilter::-moz-placeholder {
+  color: var(--blue-color);
+}
+categoryFilter::-webkit-input-placeholder {
+  color: var(--blue-color);
+}
+categoryFilter::-ms-input-placeholder {
+  color: var(--blue-color);
+}
+categoryFilter::-ms-input-placeholder {
+  color: var(--blue-color);
+}

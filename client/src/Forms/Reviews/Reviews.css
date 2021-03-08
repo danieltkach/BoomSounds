@@ -1,0 +1,33 @@
+.add-review-textarea {
+  /* max-width: 500px; */
+  width: 50%;
+  height: 60px;
+  color: black;
+}
+
+.stars-container {
+  display: flex;
+  margin: 0px;
+}
+.stars-container > * {
+  margin: 0px;
+}
+
+.email-container {
+  text-align: left;
+}
+
+.stars-email {
+  align-items: baseline;
+}
+
+.review-description {
+  text-align: left;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.reviews_list_container {
+  width: 100%;
+  color: whitesmoke;
+}

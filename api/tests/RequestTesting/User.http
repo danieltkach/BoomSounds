@@ -1,0 +1,33 @@
+#CREATE USER
+POST http://localhost:3001/users
+Content-Type: application/json
+
+{
+    "email":"test@test.com",
+    "password":"testing"
+}
+###
+#GET ALL 
+GET http://localhost:3001/users
+###
+#LOGIN
+POST http://localhost:3001/users/login 
+Content-Type: application/json
+
+{
+  "email":"test@test.com",
+  "password":"cf80cd8aed482d5d1527d7dc72fceff84e6326592848447d2dc0b0e87dfc9a90"
+}
+###
+GET http://localhost:3001/users/login
+###
+#Promote user
+PUT http://localhost:3001/users/promote/4
+###
+#Demote user
+PUT http://localhost:3001/users/demote/4
+###
+#Ban user
+PUT http://localhost:3001/users/ban/4
+###
+GET http://localhost:3001/users/login/googleAuth/prattofrancisko@gmail.com

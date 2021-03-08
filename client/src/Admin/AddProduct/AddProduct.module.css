@@ -1,0 +1,217 @@
+.component_container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 5px;
+  color: black;
+}
+
+.component_container form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left_panel,
+.right_panel {
+  width: 50vw;
+  margin: 0px 10px;
+  border: 1px solid whitesmoke;
+  box-shadow: whitesmoke;
+  padding: 20px;
+  max-height: 530px;
+  justify-content: center;
+}
+
+.left_panel {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 400px;
+}
+
+.right_panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.track_list_container {
+  border: 1px solid white;
+  height: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  overflow-y: scroll;
+  color: whitesmoke;
+}
+
+.name_artist_price_image {
+  margin-right: 15px;
+}
+
+.name_artist_price_image input {
+  margin-bottom: 5px;
+  min-width: 300px;
+}
+
+.component_container textarea::placeholder,
+.component_container input::placeholder {
+  color: whitesmoke;
+}
+input::-moz-placeholder {
+  color: whitesmoke;
+}
+input::-webkit-input-placeholder {
+  color: whitesmoke;
+}
+input::-ms-input-placeholder {
+  color: whitesmoke;
+}
+input:-ms-input-placeholder {
+  color: whitesmoke;
+}
+
+.product_image_container {
+  width: 170px;
+  height: 170px;
+  border: 1px solid whitesmoke;
+  background-color: white;
+  color: black;
+  margin-left: 20px;
+}
+
+.product_image_container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.description_container {
+  width: 100%;
+}
+.description_container textarea {
+  width: 100%;
+  min-height: 100px;
+  max-height: 100px;
+}
+
+.categories_container {
+  min-width: 480px;
+  min-height: 250px;
+}
+.categories_container .toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  height: 45px;
+  margin-bottom: 0px;
+}
+.categories_container p {
+  color: whitesmoke;
+}
+.categories_container .toolbar button {
+  width: 100px;
+  height: 30px;
+  margin-left: auto;
+}
+.display_none {
+  display: none;
+}
+
+.categories_container {
+  max-height: 190px;
+  min-height: 190px;
+  max-width: 500px;
+  min-width: 500px;
+  border: 1px solid #00d7ff;
+  padding: 10px;
+}
+.category_tag {
+  background-color: rgba(0, 0, 0);
+  border: 1px solid #00d7ff;
+  margin: 2px;
+  padding-inline: 5px;
+}
+.selected_tag {
+  background-color: yellowgreen;
+  color: white;
+}
+
+.section_title {
+  color: #e0ffff;
+}
+
+.name_input,
+.artist_input,
+.price_input,
+.image_input,
+.description_input,
+.right_panel input {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #bebebe;
+  padding: 7px;
+  margin: 2px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+
+  border: 1px solid whitesmoke;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  color: whitesmoke;
+  background-color: #000e3b;
+
+  width: 100%;
+  max-width: 300px;
+}
+
+.right_panel input {
+  margin: 10px;
+  min-width: 90%;
+}
+
+form input:focus,
+form textarea:focus {
+  -moz-box-shadow: 0 0 8px #00d7ff;
+  -webkit-box-shadow: 0 0 8px #00d7ff;
+  box-shadow: 0 0 8px #00d7ff;
+  border: 2px solid #00d7ff;
+}
+
+progress {
+  display: block;
+  width: 100%;
+  height: 20px;
+  border-radius: 2px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress {
+  border-radius: 7px;
+  width: 100%;
+  height: 10px;
+}
+progress::-webkit-progress-bar {
+  background-color: #a0f1ff;
+  border-radius: 7px;
+}
+progress::-webkit-progress-value {
+  background-color: #16007a;
+  border-radius: 7px;
+}
+
+.addProduct_footer_options_container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-left: auto;
+  height: 50px;
+  padding: 5px;
+}
+
+.addProduct_footer_options_container button {
+  margin-left: auto;
+}

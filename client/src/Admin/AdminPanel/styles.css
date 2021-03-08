@@ -1,0 +1,29 @@
+.admin-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0px 10px 0px;
+  padding: 10px;
+  /* background: linear-gradient(90deg, rgb(18, 18, 19) 0%, rgb(48, 88, 143) 100%); */
+  background-image: linear-gradient(
+    to top right,
+    rgb(101, 115, 255),
+    rgb(98, 105, 235),
+    rgb(94, 95, 216),
+    rgb(91, 84, 196),
+    rgb(88, 74, 176),
+    rgb(84, 64, 157),
+    rgb(81, 54, 137),
+    rgb(77, 44, 118),
+    rgb(74, 34, 98),
+    rgb(71, 23, 78),
+    rgb(67, 13, 59),
+    rgb(64, 3, 39)
+  );
+  color: whitesmoke;
+}
+
+.data-screen {
+  width: 80vw;
+  margin: 5px;
+  max-width: 2000px;
+}

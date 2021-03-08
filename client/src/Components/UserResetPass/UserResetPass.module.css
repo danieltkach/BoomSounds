@@ -1,0 +1,40 @@
+.form_body{
+    justify-content: center;
+    display:flex;
+    margin-top:40px;
+}
+.form_container {
+    display:flex;
+    position:relative;
+    background-color: #e0ffffa4;
+    padding: 10px;
+    width: min-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #161616 !important;
+    height: 250px;
+    align-content: center;
+}
+.reset_form{
+    display: block;
+    justify-self: center;
+}
+.input_container{
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    width: min-content;
+    height: min-content;
+    margin: 5px;
+    background-color: dimgray;
+}
+.reset_btn{
+    margin-left: 85px;
+    margin-top: 10px;
+    
+}
+.title_h4{
+    margin-left: 20%;
+    color: white;
+
+}

@@ -1,0 +1,71 @@
+:root {
+  --orange-color: #ff9703;
+  --blue-color: #036bff;
+  --light-blue-color: #00d7ff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+::-webkit-scrollbar-track {
+  border: 4px solid white;
+  background-color: rgb(106, 133, 255);
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: #dfe6e9;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--orange-color);
+  border-radius: 10px;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-image: linear-gradient(
+    to top right,
+    rgb(101, 115, 255),
+    rgb(98, 105, 235),
+    rgb(94, 95, 216),
+    rgb(91, 84, 196),
+    rgb(88, 74, 176),
+    rgb(84, 64, 157),
+    rgb(81, 54, 137),
+    rgb(77, 44, 118),
+    rgb(74, 34, 98),
+    rgb(71, 23, 78),
+    rgb(67, 13, 59),
+    rgb(64, 3, 39)
+  );
+  z-index: -10;
+}
+
+.main_button {
+  min-width: 120px;
+  min-height: 45px;
+  margin: 30px;
+  border-radius: 12px;
+  border: none;
+  background: #ff9e15;
+  box-shadow: 0 0 4px white;
+}
+
+.main_button:hover {
+  background: black;
+  color: white;
+  box-shadow: 2px 2px 4px 2px var(--orange-color);
+}
