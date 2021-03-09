@@ -53,13 +53,62 @@
   color: black;
 }
 
+.pd-price-text{
+  color: white
+}
+
+.pd-btn-text{
+  width: 200px;
+  margin-top: 10px;
+}
+
+.pd-btn-text:hover{
+  background-color: #008F39;
+  transition-duration: 1s;
+}
+
 .pd-categories-container {
   display: flex;
-  flex-wrap: wrap;
   padding: 10px;
   margin: 10px;
   width: 600px;
   height: 50px;
-  border: 1px solid white;
-  display: none;
+  border: 2px solid white;
+}
+
+
+.category-label{
+  margin-left: 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.category-label:hover{
+  background: black;
+  transition-duration: 2s;
+}
+
+.pd-tracks-container {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  width: 600px;
+  height: 50px;
+  border: 2px solid white;
+}
+
+.track-label{
+  margin-left: 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.track-label:hover{
+  background: black;
+  transition-duration: 2s;
 }

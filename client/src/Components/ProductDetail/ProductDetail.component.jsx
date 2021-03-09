@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import './ProductDetail.css';
 import PlayPreview from './../../Admin/PlayPreview/PlayPreview.component';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlay} from '@fortawesome/free-solid-svg-icons';
+
 export default function ProductDetail({ productId }) {
   const [product, setProduct] = useState({});
 
@@ -15,7 +18,6 @@ export default function ProductDetail({ productId }) {
       .catch((e) => console.log(e));
   }, []);
 
-  console.log(product.categories);
 
   return (
     <div className="ProductDetail-container">
@@ -34,18 +36,29 @@ export default function ProductDetail({ productId }) {
             audioUrl={product.audioUrl}
           />
         </div>
+        
         <div className="pd-categories-container">
-          {/* {product && product.categories?.length ? (
-            product.categories((c) => (
+        <h5>Categorias : </h5>
+          {product.categories?.length ? (
+            product.categories.map((c) => (
               <div className="category-label">{c.name}</div>
             ))
           ) : (
             <span>Producto sin categorías</span>
-          )} */}
+          )} 
+        </div>
+        <div className="pd-tracks-container">
+        <h5>Canciones que incluye : </h5>
+            {product.categories?.length ? (
+              product.tracks.map((t) =>(
+                <div className="track-label">{t.name} <FontAwesomeIcon type="icon" icon={faPlay} /></div>
+              ))): (<span>Este producto no incluye otras canciones</span>
+              )}
         </div>
         <div className="pd-purchase-container">
-          <span className="pd-price-text">${product.price}</span>
-          <button type="button">Comprar</button>
+          <h3 className="pd-price-text">${product.price}</h3>
+          <br/>
+          <button className="pd-btn-text" type="button">Comprar</button>
         </div>
       </div>
     </div>
