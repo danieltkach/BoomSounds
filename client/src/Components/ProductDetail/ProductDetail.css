@@ -62,16 +62,14 @@
 }
 
 .pd-price-text{
-  color: white;
-  margin-left: 600px;
+  margin-left: 80px;
 }
+
 
 .pd-btn-text{
   width: 300px;
   margin-top: 10px;
   text-align: center;
-  margin-left: 500px;
-  margin-bottom: 100px;
 }
 
 .pd-btn-text:hover{
@@ -83,6 +81,12 @@
   padding: 10px;
   margin: 10px;
   margin-left: -10px;
+}
+
+.pd-purchase-container{
+  color: white;
+  margin-left: 950px;
+  margin-bottom: 100px;
 }
 
 
