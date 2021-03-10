@@ -195,7 +195,7 @@ const AddProduct = ({ fetch_cat, cats, product }) => {
             </div>
             <div className={styles.product_image_container}>
               <img
-                src={productImage ? productImage : '/cd.jpg'}
+                src={datos.imgUrl ? datos.imgUrl : '/cd.jpg'}
                 alt="Product cover"
               />
             </div>

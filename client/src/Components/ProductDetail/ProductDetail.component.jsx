@@ -47,6 +47,7 @@ export default function ProductDetail({ productId }) {
             <span>Producto sin categorías</span>
           )} 
         </div>
+      </div>
         <div className="pd-tracks-container">
         <h5>Canciones que incluye : </h5>
             {product.categories?.length ? (
@@ -60,7 +61,7 @@ export default function ProductDetail({ productId }) {
           <br/>
           <button className="pd-btn-text" type="button">Comprar</button>
         </div>
-      </div>
+      
     </div>
   );
 }

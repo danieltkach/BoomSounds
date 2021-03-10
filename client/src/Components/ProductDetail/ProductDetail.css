@@ -1,6 +1,9 @@
 .ProductDetail-container {
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;
+  flex-wrap: wrap;*/
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  grid-template-areas: "pd-image pd-basic-info pd-tracks-container";
   width: 90%;
   height: 75vh;
   border: 2px solid black;
@@ -23,6 +26,7 @@
   overflow: hidden;
   justify-content: center;
   align-items: center;
+  grid-area: pd-image;
 }
 .pd-image img {
   height: 80%;
@@ -30,9 +34,10 @@
 }
 
 .pd-basic-info {
-  width: 50vw;
+  max-width: 25vw;
   height: 50vh;
   margin-top: 30px;
+  grid-area: pd-basic-info;
 }
 .pd-name {
   font-size: 2em;
@@ -41,8 +46,11 @@
   font-size: 1.5em;
   font-style: italic;
 }
-.pd-description {
-  font-size: 1em;
+.pd-description{
+  display: flex;
+  flex-wrap: wrap;
+  width: 25vw;
+  position: relative;
 }
 
 .pd-play-controls {
@@ -54,12 +62,16 @@
 }
 
 .pd-price-text{
-  color: white
+  color: white;
+  margin-left: 600px;
 }
 
 .pd-btn-text{
-  width: 200px;
+  width: 300px;
   margin-top: 10px;
+  text-align: center;
+  margin-left: 500px;
+  margin-bottom: 100px;
 }
 
 .pd-btn-text:hover{
@@ -68,21 +80,21 @@
 }
 
 .pd-categories-container {
-  display: flex;
   padding: 10px;
   margin: 10px;
-  width: 600px;
-  height: 50px;
-  border: 2px solid white;
+  margin-left: -10px;
 }
 
 
 .category-label{
   margin-left: 10px;
   border: 2px solid white;
+  width: 150px;
   font-size: 20px;
   padding-left: 10px;
   padding-right: 10px;
+  margin-left: -1px;
+  margin-top: 7px;
 }
 
 .category-label:hover{
@@ -92,11 +104,12 @@
 
 .pd-tracks-container {
   display: flex;
+  flex-direction: column;
   padding: 10px;
   margin: 10px;
-  width: 600px;
-  height: 50px;
+  height: 300px;
   border: 2px solid white;
+  grid-area: pd-tracks-container;
 }
 
 .track-label{
