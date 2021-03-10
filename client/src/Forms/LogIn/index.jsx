@@ -83,13 +83,13 @@ function LogIn({checkLocalCart}) {
         if (error.response) {
           switch (error.response.status) {
             case 401:
-              addToast('Wrong credentials!', {
+              addToast('Error de credeciales', {
                 appearance: 'error',
                 autoDismiss: true,
               });
               break;
             case 403:
-              addToast('You are banned! Please contact an admin', {
+              addToast('Usted ha sido baneado, porfavor contactese con un administrador', {
                 appearance: 'error',
                 autoDismiss: true,
               });
