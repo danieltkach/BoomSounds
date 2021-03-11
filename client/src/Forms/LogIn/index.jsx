@@ -127,7 +127,7 @@ function LogIn({checkLocalCart}) {
             <input
               className="loginInput"
               id="email"
-              placeholder="Enter email address"
+              placeholder="Ingrese un email"
             ></input>
           </div>
 
@@ -136,19 +136,20 @@ function LogIn({checkLocalCart}) {
             <input
               className="loginInput"
               id="password"
-              placeholder="Enter password"
+              placeholder="Ingrese la contraseña"
               type="password"
             ></input>
           </div>
           <div className="buttonContainer">
-            <button onClick={login}>Sign-In</button>
-            <button onClick={register}>Register</button>
+            <button className='btn-login' onClick={login}>Iniciar Sesión</button>
+            <button className='btn-login' onClick={register}>Registrarse</button>
             <GoogleLogin
               clientId="1074757138881-v7iqvdmp47aim356gpgdug782u4ocgrq.apps.googleusercontent.com"
-              buttonText="Login"
+              buttonText="Iniciar sesión con Google"
               onSuccess={handleGoogleAuth}
               onFailure={handleGoogleAuth}
               cookiePolicy={'single_host_origin'}
+              className='btn-login'
             />
           </div>
         </form>

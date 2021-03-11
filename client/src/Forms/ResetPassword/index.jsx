@@ -19,7 +19,6 @@ function ResetPassword () {
         e.preventDefault();
         
         var email = document.getElementById('email').value;
-        console.log(email, 'email front')
 
         axios
           .post('http://localhost:3001/users/auth/forgot', {
@@ -31,15 +30,22 @@ function ResetPassword () {
               autoDismiss: true,
             });
             document.getElementById('email').value = '';
-          }); 
+          })
+          .catch(()=>{
+            addToast('Email incorrecto, porfavor ingrese un mail correcto', {
+              appearance: 'error',
+              autoDismiss: true,
+            });
+
+          })
     }
     
     return (
         <div className="forgot-formContainer">
           <div className="forgot-form">
-            <h6>Ingrese su email para reestablecer su contraseña</h6>
+            <h4>Recuperar contraseña</h4>
             <form>
-              <div className="forgot-fieldContainer">
+              <div className="forgot-fieldCont">
                 <FontAwesomeIcon className="icon" icon={faUser} />
                 <input
                   className="forgotInput"

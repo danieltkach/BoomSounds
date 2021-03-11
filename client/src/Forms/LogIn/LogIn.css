@@ -3,12 +3,13 @@
 }
 .login-form {
   background-color: #e0ffffa4;
-  padding: 10px;
-  width: min-content;
+  padding: 20px;
+  width: 400px;
   margin-block: 25px;
   margin-inline: 150px;
   border: 1px solid black;
   border-radius: 10px;
+  text-align: center;
 }
 .form {
   display: flex;
@@ -20,10 +21,11 @@ p {
   display: flex;
   padding: 10px;
   border-radius: 10px;
-  width: min-content;
+  width: 300px;
   height: min-content;
   margin: 5px;
   background-color: dimgray;
+  margin-left: 40px;
 }
 .icon {
   margin: 5px;
@@ -39,12 +41,23 @@ button {
 }
 .buttonContainer {
   display: flex;
+  flex-direction: column;
 }
 .formContainer {
   display: flex;
   justify-content: center;
 }
 .loginInput {
-  width: 200px;
+  width: 250px;
   color: black;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+
+}
+
+.btn-login{
+  margin: 5px;
+  margin-left: 40px;
+  width: 300px;
 }
